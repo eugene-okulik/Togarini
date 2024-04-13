@@ -8,7 +8,7 @@ my_dict = {
 my_dict["tuple"][-1]
 my_dict["list"].append(4.4)
 my_dict["list"].remove(2.34)
-my_dict["dict"]["i am a tuple"] = 5
+my_dict["dict"][("i am a tuple",)] = 5
 my_dict["dict"].pop("four")
 my_dict["set"].add(11)
 my_dict["set"].remove(7)
