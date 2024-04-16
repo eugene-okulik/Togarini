@@ -18,7 +18,10 @@ print(res_ops_my_1, res_ops_my_2, res_ops_my_3)
 students = ['Ivanov', 'Petrov', 'Sidor']
 subjects = ['math', 'biology', 'geography']
 
-students: str = ', '.join(students)
-subjects: str = ', '.join(subjects)
+students_f_string: str = ', '.join(students)
+subjects_f_string: str = ', '.join(subjects)
 
-print(f'Students {students} study these subjects: {subjects}')
+print(f'Students {students_f_string} study these subjects: {subjects_f_string}')
+
+phrase = 'Students {} study these subjects: {}'
+print(phrase.format(students_f_string, subjects_f_string))
