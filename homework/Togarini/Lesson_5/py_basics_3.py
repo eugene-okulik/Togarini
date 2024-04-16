@@ -23,5 +23,5 @@ subjects_f_string: str = ', '.join(subjects)
 
 print(f'Students {students_f_string} study these subjects: {subjects_f_string}')
 
-phrase = 'Students {} study these subjects: {}'
+phrase = 'Students {0} study these subjects: {1}'
 print(phrase.format(students_f_string, subjects_f_string))
