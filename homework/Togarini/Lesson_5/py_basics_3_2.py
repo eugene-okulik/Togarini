@@ -17,7 +17,6 @@ person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 name, last_name, city, phone, country = person
 print(name, last_name, city, phone, country)
 
-
 students = ['Ivanov', 'Petrov', 'Sidor']
 subjects = ['math', 'biology', 'geography']
 
@@ -28,13 +27,3 @@ print(f'Students {students_f_string} study these subjects: {subjects_f_string}')
 
 phrase = 'Students {0} study these subjects: {1}'
 print(phrase.format(students_f_string, subjects_f_string))
-
-
-
-
-
-
-
-
-
-
