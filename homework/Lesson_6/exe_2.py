@@ -6,4 +6,4 @@ for numbers in range(1, 101):
     elif numbers % 5 == 0:
         print('buzz')
     else:
-        print(numbers);;
+        print(numbers)
