@@ -74,7 +74,8 @@ for book in books:
 
 
 class SchoolBook(Book):
-    def __init__(self, book_name, book_author, book_pages, subject, class_number, tasks, reserved):
+    def __init__(self, book_name, book_author, book_pages, subject,
+                 class_number, tasks, reserved):
         super().__init__(book_name, book_author, book_pages, 12345, reserved)
         self.subject = subject
         self.class_number = class_number
@@ -98,5 +99,5 @@ for textbook in textbooks:
     else:
         print(f"Название: {textbook.book_name}, " +
               f"Автор: {textbook.book_author}, " +
-              f"страницы: {textbook.book_pages}, " + 
+              f"страницы: {textbook.book_pages}, " +
               f"Материал: {textbook.page_material}")
