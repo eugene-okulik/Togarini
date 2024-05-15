@@ -46,7 +46,7 @@ books = [book_1, book_2, book_3, book_4, book_5]
 for book in books:
     if book.reserved:
         print(f"Название: {book.book_name}, Автор: {book.book_author}, "
-              f"ISBN: {book.isbn}, страниц:{book.book_pages}, " +
+              f"ISBN: {book.isbn}, страниц:{book.book_pages}, "
               f"материал: {book.page_material}, зарезервирована")
     else:
         print(f"Название: {book.book_name}, Автор: {book.book_author}, "
