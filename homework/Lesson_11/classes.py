@@ -1,4 +1,5 @@
 # Библиотека
+
 # Первый класс
 # Создайте класс book с атрибутами:
 # материал страниц
@@ -13,9 +14,11 @@
 # Создайте несколько (штук 5) экземпляров разных книг.
 # После создания пометьте одну книгу как зарезервированную.
 # Распечатайте детали о каждой книге в таком виде:
+
 # Если книга зарезервирована:
 # Название: Идиот, Автор: Достоевский, страниц: 500, материал: бумага,
 # зарезервирована
+
 # если не зарезервирована:
 # Название: Идиот, Автор: Достоевский, страниц: 500,  материал: бумага
 
@@ -42,12 +45,12 @@ books = [book_1, book_2, book_3, book_4, book_5]
 
 for book in books:
     if book.reserved:
-        print(f"Название: {book.book_name}, Автор: {book.book_author}, " +
+        print(f"Название: {book.book_name}, Автор: {book.book_author}, "
               f"ISBN: {book.isbn}, страниц:{book.book_pages}, " +
               f"материал: {book.page_material}, зарезервирована")
     else:
-        print(f"Название: {book.book_name}, Автор: {book.book_author}, " +
-              f"ISBN: {book.isbn}, страниц: {book.book_pages}, " +
+        print(f"Название: {book.book_name}, Автор: {book.book_author}, "
+              f"ISBN: {book.isbn}, страниц: {book.book_pages}, "
               f"материал: {book.page_material}")
 
 # Второй класс
@@ -61,9 +64,12 @@ for book in books:
 # После создания пометьте один учебник как зарезервированный.
 # Распечатайте детали о каждом учебнике в таком виде: Если учебник
 # зарезервирован:
+
 # Название: Алгебра, Автор: Иванов, страниц: 200, предмет: Математика, класс:
 # 9, зарезервирована
+
 # если не зарезервирован:
+
 # Название: Алгебра, Автор: Иванов, страниц: 200, предмет: Математика, класс: 9
 
 
@@ -86,12 +92,12 @@ textbooks = [textbook_1, textbook_2, textbook_3]
 
 for textbook in textbooks:
     if textbook.reserved:
-        print(f"Название: {textbook.book_name}, " +
-              f"Автор: {textbook.book_author}, " +
-              f"страницы: {textbook.book_pages}, " +
+        print(f"Название: {textbook.book_name}, "
+              f"Автор: {textbook.book_author}, "
+              f"страницы: {textbook.book_pages}, "
               f"Материал: {textbook.page_material}, зарезервирована")
     else:
-        print(f"Название: {textbook.book_name}, " +
-              f"Автор: {textbook.book_author}, " +
-              f"страницы: {textbook.book_pages}, " +
+        print(f"Название: {textbook.book_name}, "
+              f"Автор: {textbook.book_author}, "
+              f"страницы: {textbook.book_pages}, "
               f"Материал: {textbook.page_material}")
