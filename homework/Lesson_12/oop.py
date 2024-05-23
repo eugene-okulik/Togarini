@@ -20,8 +20,10 @@ class Color:
         self.average_lifespan = average_lifespan
 
     def __str__(self):
-        return f"{self.name} ({self.color}) - " \
-                f"Average Lifespan: {self.average_lifespan}"
+        return (
+            f"{self.name} ({self.color}) - "
+            f"Average Lifespan: {self.average_lifespan}"
+        )
 
 
 class Flower(Color):
@@ -57,8 +59,8 @@ class Bouquet:
         self.colors.sort(key=lambda color: color.cost)
 
     def search_by_average_lifespan(self, average_lifespan):
-        return [color for color in self.colors if color.average_lifespan ==
-                average_lifespan]
+        return [color for color in self.colors
+                if color.average_lifespan == average_lifespan]
 
 
 rose = Flower("Rose", "Red", 100, 10)
